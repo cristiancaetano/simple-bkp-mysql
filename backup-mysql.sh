@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-source /home/creative/Downloads/Mysql-bkp-nas-master/bkp-mysql.conf
+source /home/bkp-mysql.conf
 
 function @CRIAPASTADIARIA () {
         echo " Criando Pasta Diaria $DATA" >> $LOG
